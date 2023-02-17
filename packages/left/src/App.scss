@@ -1,0 +1,19 @@
+.app-left {
+  width: 100%;
+  margin: 1rem;
+  border: 1px dashed red;
+  height: 100%;
+  &-title {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+  }
+  &-label {
+    width: 3rem;
+    padding: .2rem;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
+}

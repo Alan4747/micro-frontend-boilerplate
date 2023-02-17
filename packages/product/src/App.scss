@@ -1,0 +1,22 @@
+.app-product {
+  margin: 1rem;
+  border: 1px dashed green;
+  height: 100%;
+  &-sub-mfe {
+    display:flex;
+    align-items: center;
+  }
+  &-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+  }
+  &-label {
+    width: 3rem;
+    padding: 0.2rem;
+    background-color: green;
+    color: white;
+    text-align: center;
+  }
+}

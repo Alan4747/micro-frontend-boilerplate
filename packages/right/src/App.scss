@@ -1,0 +1,18 @@
+.app-right {
+  width: 100%;
+  margin: 1rem;
+  border: 1px dashed yellowgreen;
+  &-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+  }
+  &-label {
+    width: 3rem;
+    padding: 0.2rem;
+    background-color: yellowgreen;
+    color: white;
+    text-align: center;
+  }
+}

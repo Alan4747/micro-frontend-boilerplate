@@ -1,0 +1,14 @@
+.header {
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #eee;
+  span {
+    color: black;
+    opacity: .8;
+    letter-spacing: .1rem;
+    font-size: .9rem;
+  }
+}

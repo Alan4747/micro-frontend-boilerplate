@@ -1,0 +1,11 @@
+.app {
+  border: 1px dashed orange;
+  height: 100%;
+  &-label {
+    width: 3rem;
+    padding: .2rem;
+    background-color: orange;
+    color: white;
+    text-align: center;
+  }
+}

@@ -1,0 +1,18 @@
+.app-user {
+  margin: 1rem;
+  border: 1px dashed purple;
+  height: 100%;
+  &-title {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &-label {
+    width: 3rem;
+    padding: .2rem;
+    background-color: purple;
+    color: white;
+    text-align: center;
+  }
+}
